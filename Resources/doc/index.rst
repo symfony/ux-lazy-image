@@ -69,8 +69,9 @@ There is also support for the ``srcset`` attribute by passing an
         }) }}
     />
 
-**Note** The ``stimulus_controller()`` function comes from
-`WebpackEncoreBundle v1.10`_.
+.. note::
+
+    The ``stimulus_controller()`` function comes from `WebpackEncoreBundle v1.10`_.
 
 Instead of using a generated thumbnail that would exist on your
 filesystem, you can use the BlurHash algorithm to create a light,
@@ -151,11 +152,10 @@ Then in your template, add your controller to the HTML attribute:
         height="150"
     />
 
-..
+.. note::
 
-   **Note**: be careful to add your controller **before** the LazyImage
-   controller so that it is executed before and can listen on the
-   ``lazy-image:connect`` event properly.
+    Be careful to add your controller **before** the LazyImage controller so that
+    it is executed before and can listen on the ``lazy-image:connect`` event properly.
 
 Backward Compatibility promise
 ------------------------------
