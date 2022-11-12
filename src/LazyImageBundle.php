@@ -22,4 +22,8 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  */
 class LazyImageBundle extends Bundle
 {
+    public function getPath(): string
+    {
+        return \dirname(__DIR__);
+    }
 }
