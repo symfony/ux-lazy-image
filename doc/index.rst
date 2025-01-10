@@ -1,6 +1,12 @@
 Symfony UX LazyImage
 ====================
 
+.. warning::
+
+    **This package is no longer recommended.** Instead, use the
+    `modern techniques to improve image loading performance`_ natively supported
+    by all major browsers.
+
 Symfony UX LazyImage is a Symfony bundle providing utilities to improve
 image loading performance. It is part of `the Symfony UX initiative`_.
 
@@ -245,6 +251,7 @@ This bundle aims at following the same Backward Compatibility promise as
 the Symfony framework:
 https://symfony.com/doc/current/contributing/code/bc.html
 
+.. _`modern techniques to improve image loading performance`: https://web.dev/learn/images/performance-issues
 .. _`the Symfony UX initiative`: https://ux.symfony.com/
 .. _`BlurHash implementation`: https://blurha.sh
 .. _`StimulusBundle`: https://symfony.com/bundles/StimulusBundle/current/index.html
