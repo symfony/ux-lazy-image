@@ -61,7 +61,7 @@ replaced by the high-definition version once the page has been rendered:
     >
 
 With this setup, the user will initially see ``images/small.png``. Then,
-once the page has loaded and the user’s browser has downloaded the
+once the page has loaded and the user's browser has downloaded the
 larger image, the ``src`` attribute will change to ``image/large.png``.
 
 There is also support for the ``srcset`` attribute by passing an
